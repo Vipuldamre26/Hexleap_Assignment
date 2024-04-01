@@ -209,3 +209,19 @@
 .dark-mode {
     transform: translateX(calc(100% + 9px));
 }
+
+
+
+@media only screen and (max-width: 1000px) {
+    .cards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .adcard{
+        display: none;
+        width: 0%;
+    }
+}

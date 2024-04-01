@@ -61,10 +61,9 @@ const Players = () => {
     return (
         <div className='players' style={{ backgroundColor: userData.bg }}>
             <div className='players-container'>
-                <div className='nav' style={{ position: 'relative'}}>
+                <div className='nav' style={{ position: 'relative' }}>
                     <h2 style={{ backgroundColor: userData.toggle ? '#3B3E47' : '#FFFFFF', color: userData.toggle ? '#FFFFFF' : '#3B3E47' }}>Sports</h2>
-                        <h1 style={{position:'relative', right : '-410px'}}>Change Theme</h1>
-                    <div class="btn" ref={refbtn} onClick={changeTheme}  style={{ backgroundColor: userData.toggle ? '#3B3E47' : '#FFFFFF',   backgroundColor: userData.toggle ? '#FFFFFF' : '#3B3E47'}} >
+                    <div class="btn" ref={refbtn} onClick={changeTheme} style={{ backgroundColor: userData.toggle ? '#3B3E47' : '#FFFFFF', backgroundColor: userData.toggle ? '#FFFFFF' : '#3B3E47' }} >
                         <div class="circle" ref={refcircle} style={{ backgroundColor: userData.toggle ? '#000000' : '#F7F7F8' }}></div>
                     </div>
                 </div>
